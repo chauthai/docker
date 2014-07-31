@@ -13,6 +13,7 @@ RUN apt-get -q -y install gcc
 RUN apt-get -q -y install libleptonica-dev
 RUN apt-get -q -y install libtesseract3 libtesseract-dev
 RUN apt-get install -q -y tesseract-ocr-eng
+RUN apt-get install -q -y tesseract-ocr-deu
 
 RUN go get -u -v github.com/tleyden/open-ocr
 
